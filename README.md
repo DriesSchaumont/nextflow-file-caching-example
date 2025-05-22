@@ -5,7 +5,7 @@ This repository provides a small example of asset (repository) directories not b
 
 # Example of incorrect caching
 
-## Cleaning the repository (again)
+## Cleaning the repository
 
 ```
 nextflow drop DriesSchaumont/nextflow-file-caching-example > /dev/null; rm -rf .nextflow && rm -f .nextflow.log* && rm -rf work
