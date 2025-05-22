@@ -31,14 +31,14 @@ curl -s https://get.nextflow.io | bash
 
 Run workflow once
 ```bash
-nextflow run DriesSchaumont/nextflow-file-caching-example -r db845226d3ba417131e22e127eb501c51b96f6ad
+nextflow run DriesSchaumont/nextflow-file-caching-example -r acecab40435f6d3064f5ffd7c7efa2c60048f463
 ```
 
     N E X T F L O W   ~  version 25.04.2
 
     Pulling DriesSchaumont/nextflow-file-caching-example ...
     downloaded from https://github.com/DriesSchaumont/nextflow-file-caching-example.git
-    Launching `https://github.com/DriesSchaumont/nextflow-file-caching-example` [small_cori] DSL2 - revision: db845226d3ba417131e22e127eb501c51b96f6ad
+    Launching `https://github.com/DriesSchaumont/nextflow-file-caching-example` [small_cori] DSL2 - revision: acecab40435f6d3064f5ffd7c7efa2c60048f463
 
     Downloading plugin nf-tower@1.11.2
     executor >  local (3)
@@ -54,7 +54,7 @@ Drop the repository. This causes the order in which the `SimpleFileVisitor` trav
 
 ```bash
 nextflow drop DriesSchaumont/nextflow-file-caching-example
-nextflow run DriesSchaumont/nextflow-file-caching-example -r db845226d3ba417131e22e127eb501c51b96f6ad -resume
+nextflow run DriesSchaumont/nextflow-file-caching-example -r acecab40435f6d3064f5ffd7c7efa2c60048f463 -resume
 ```
 
 
@@ -62,7 +62,7 @@ nextflow run DriesSchaumont/nextflow-file-caching-example -r db845226d3ba417131e
 
     Pulling DriesSchaumont/nextflow-file-caching-example ...
     downloaded from https://github.com/DriesSchaumont/nextflow-file-caching-example.git
-    Launching `https://github.com/DriesSchaumont/nextflow-file-caching-example` [amazing_shannon] DSL2 - revision: db845226d3ba417131e22e127eb501c51b96f6ad
+    Launching `https://github.com/DriesSchaumont/nextflow-file-caching-example` [amazing_shannon] DSL2 - revision: acecab40435f6d3064f5ffd7c7efa2c60048f463
 
     executor >  local (3)
     [f0/16dae1] process > foo (Loulou) [100%] 3 of 3 ✔
